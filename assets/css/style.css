@@ -5,8 +5,8 @@
 /*-----------------------Colors--------------------------*/
 
 
-footer {
-    background-color: #e67e22;
+body {
+    background-color: #525252;
 }
 
 .bg-color-name-title {
@@ -41,9 +41,16 @@ footer {
     background-color: #d9d9d9;
 }
 
+.bg-color-contact {
+  background-color: #ffffff;  
+}
 
 
 /*-----------------------Padding/Margins/Text--------------------------*/
+
+html,body{
+    height: 100%
+}
 
 h1,
 h2,
@@ -168,13 +175,12 @@ header {
 }
 
 
-
 /*-----------------------Footer--------------------------*/
 
 footer {
     background-color: #525252;
     color: #fafafa;
-    min-height: 120px;
+    min-height: 150px;
     margin: 0;
 }
 
@@ -347,6 +353,27 @@ margin-bottom: 50px;
 }
 
 
+/*-----------------------Contact Me--------------------------*/
+
+.contact-heading {
+    font-family: "Exo";
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    background-color: #3498db;
+    color: #fafafa;
+}
 
 /*-----------------------Media queries-------------------------*/
 
@@ -356,4 +383,11 @@ margin-bottom: 50px;
         float: none;
         display: table-cell;
     }
+    
+    .center-form {
+    padding-top: 30px;
+    min-height: 240px;
+    margin: 0 auto;
+    max-width: 50%;
+}
 }
